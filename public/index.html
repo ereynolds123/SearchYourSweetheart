@@ -51,12 +51,13 @@ crossorigin="anonymous"></script>
 </head>
 <body>
 <header>
-<h1><span style="font-size:150%;color:red;">&hearts;</span> Search Your Sweetie <span style="font-size:150%;color:red;">&hearts;</span></h1>
+    <h1><span style="font-size:150%;color:red;">&hearts;</span> Search Your Sweetie <span style="font-size:150%;color:red;">&hearts;</span></h1>
+</header>
 
 <div class="search-container"><input id="search-input" placeholder="Search your sweetie's name" type="text" /><button id="search-btn">Search</button></div>
 
 <div class="hero-container"><img alt="hero-image" src="https://i.ibb.co/G2Z34ZG/328963420-1215756362362370-7988898630465803663-n.png" width="400" /></div>
-</header>
+
 
 <main>
 <div id="results-container"></div>
@@ -66,6 +67,14 @@ crossorigin="anonymous"></script>
 
 <footer>
 <p>&copy; Emily Reynolds Designs (and chatGPT)</p>
+<form action="https://www.paypal.com/donate" method="post" target="_top" id="payment_form">
+    <input type="hidden" name="business" value="LC6LLZHC84Z2E" />
+    <input type="hidden" name="no_recurring" value="0" />
+    <input type="hidden" name="item_name" value="Thank you for visiting the site! Your generous donation helps us maintain the site." />
+    <input type="hidden" name="currency_code" value="USD" />
+    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+ </form>
 &nbsp;
 
 <div class="sharethis-inline-share-buttons"></div>

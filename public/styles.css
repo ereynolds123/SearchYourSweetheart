@@ -13,6 +13,9 @@ body {
     flex-direction: column;
 }
 
+#payment_form{
+    padding : 20px;
+}
 .hero-container {
     display: flex;
     justify-content: center;
